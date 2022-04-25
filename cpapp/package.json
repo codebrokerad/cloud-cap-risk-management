@@ -7,7 +7,9 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^5",
-    "express": "^4"
+    "express": "^4",
+    "hdb": "^0.19.2",
+    "passport": "^0.5.2"
   },
   "devDependencies": {
     "@sap/ux-specification": "^1.100.0",
@@ -46,5 +48,12 @@
   "sapux": [
     "app/risks",
     "app/mitigations"
-  ]
+  ],
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sql"
+      }
+    }
+  }
 }

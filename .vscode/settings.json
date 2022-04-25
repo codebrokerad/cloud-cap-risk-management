@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "files.exclude": {
     "**/.gitignore": true,
@@ -5,3 +6,6 @@
     "**/.vscode": true
   }
 }
+=======
+{}
+>>>>>>> templatev2
